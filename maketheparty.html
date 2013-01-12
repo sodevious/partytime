@@ -21,7 +21,7 @@
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
@@ -35,18 +35,23 @@
 </header>
 
         <h4>Guest List</h4>
-        <table class='table table-bordered'>
-          <tr>
-              <td>Nick </td>
+        <table class="table table-bordered">
+          <tr class="success">
+              <td>Nick</td>
               <td> Coming!</td>
+                            <td><i class="icon-ok"></i></td>
+
           </tr>
-          <tr>
+          <tr class="success">
               <td>Nicole</td>
               <td>Coming!</td>
+              <td><i class="icon-ok"></i></td>
           </tr>
-          <tr>
+          <tr class="error">
               <td>Rich</td>
               <td>Does not want Pizza!</td>
+              <td><i class="icon-remove"></i></td>
+
           </tr>
 
         </table>
@@ -67,14 +72,15 @@
 
         
       </form>
-      <h6>If your billing address is different then the one previously supplied.</h6>
-      <div class='btn btn-large btn-block btn-primary'>
-        <a href="#">Change Billing Address</a>
-      </div>
 
-      <div class='btn btn-large btn-block btn-primary'>
-        <a href="#">ORDER THE PIZZA</a>
-      </div>
+<hr>
+
+      <p>If your billing address is different then the one previously supplied.</p>
+      <a class='btn btn-large btn-block disabled' href="#">Change Billing Address</a>
+<hr>
+
+        <a class='btn btn-large btn-block btn-success' href="#">Place My Order!</a>
+
 
     </div> 
 

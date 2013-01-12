@@ -104,3 +104,8 @@ p {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+.step3 table, .step3 td {
+  color: #444;
+  border: none;
+}
