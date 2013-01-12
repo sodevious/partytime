@@ -1,15 +1,9 @@
 body {
 	padding: 30px;
 	color: #fcf8ea;
-}
 
-.container {
-  width: 320px;
-}
 
-#radial-center {
-
-  background-color: #660000;
+    background-color: #660000;
   background-position: center center;
   background-repeat: no-repeat;
   
@@ -25,6 +19,17 @@ body {
   /* IE 10 */ 
   background: -ms-radial-gradient(circle, #9C0606, #660000);
   
+
+  
+}
+
+.container {
+  width: 320px;
+}
+
+#radial-center {
+
+
   /* Opera cannot do radial gradients yet */
 }
 
