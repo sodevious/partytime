@@ -2,8 +2,7 @@ body {
 	padding: 30px;
 	color: #fcf8ea;
 
-
-    background-color: #660000;
+  background-color: #660000;
   background-position: center center;
   background-repeat: no-repeat;
   
@@ -18,27 +17,25 @@ body {
   
   /* IE 10 */ 
   background: -ms-radial-gradient(circle, #9C0606, #660000);
-  
-
-  
 }
 
-.container {
-  width: 320px;
-}
-
-#radial-center {
-
-
-  /* Opera cannot do radial gradients yet */
-}
 
 header {
-  background-color: pink;
   display: block;
-height: 230px;
+  height: 230px;
   background: url(../img/logo.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+.container, .container-narrow {
+  width: 320px;
+  margin: 0px auto;
+}
+
+
+/* Step 1 */
+
+.step1 .btn {
+  margin: 10px 0px 20px;
 }
