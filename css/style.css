@@ -28,15 +28,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 
-header {
-  display: block;
-  height: 230px;
-  background: url(../img/logo.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
 .container, .container-narrow {
   width: 320px;
   margin: 0px auto;
@@ -45,6 +36,7 @@ header {
 h4 {
   font-size: 30px;
   color: #F1B42F;
+  line-height: 34px;
 }
 
 p {
@@ -55,9 +47,47 @@ p {
 
 /* Step 1 */
 
-.step1 .btn {
-  margin: 10px 0px 20px;
+  .step1 .btn {
+    margin: 10px 0px 20px;
+  }
+
+  .step1 .span {
+  margin-bottom: 10px;
+  }
+
+  .step1 header {
+    display: block;
+    height: 230px;
+    background: url(../img/logo.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+/* Step 2 */
+
+.step2 header {
+  display: block;
+  height: 60px;
+  background: url(../img/logo_short.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
-.step1 .span {
-margin-bottom: 10px;}
+.step2 p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 22px;
+}
+
+.step2 h5 {
+    font-size: 20px;
+  color: #D44D13;
+  line-height: 34px;
+}
+
+.step2 small {
+  margin: 10px 0px;
+  display: block;
+}
