@@ -1,6 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700);
+
+
 body {
 	padding: 30px;
 	color: #fcf8ea;
+
+font-family: 'Raleway', sans-serif;
+
+-webkit-font-smoothing: antialiased;
+
 
   background-color: #660000;
   background-position: center center;
@@ -28,11 +36,18 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 .container, .container-narrow {
   width: 320px;
   margin: 0px auto;
 }
 
+h4 {
+  font-size: 26px;
+}
+
+p {
+}
 
 /* Step 1 */
 
