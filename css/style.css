@@ -37,6 +37,8 @@ h4 {
   font-size: 30px;
   color: #F1B42F;
   line-height: 34px;
+
+  margin-top: 20px;
 }
 
 p {
@@ -90,4 +92,15 @@ p {
 .step2 small {
   margin: 10px 0px;
   display: block;
+}
+
+/* Step 3 */
+
+.step3 header {
+  display: block;
+  height: 60px;
+  background: url(../img/logo_short.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
